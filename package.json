@@ -1,0 +1,25 @@
+{
+  "name": "techiehome",
+  "version": "1.0.0",
+  "description": "TechieHome Website, will also act as test for the framework and would improve it as well",
+  "main": "app.js",
+  "scripts": {
+    "dev": "rm -rf ./development && rm -rf ./.cache && parcel public/index.html --out-dir development -p 3000",
+    "build": "parcel build public/index.html --out-dir dist --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephlegere/TechieHome.git"
+  },
+  "keywords": [
+    "Tech",
+    "Home",
+    "Automation"
+  ],
+  "author": "Joseledgy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephlegere/TechieHome/issues"
+  },
+  "homepage": "https://github.com/josephlegere/TechieHome#readme"
+}
